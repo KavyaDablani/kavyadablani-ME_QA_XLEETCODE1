@@ -76,6 +76,7 @@ public class TestCases {
         for (int i = 1; i < 6 && i < questionElements.size(); i++) {
             WebElement questionElement = questionElements.get(i);
             String questionTitle = questionElement.getText();
+            Thread.sleep(8000);
             System.out.println("Question " + (i + 1) + ": " + questionTitle);
         }
         System.out.println("end Test case: testCase02");
