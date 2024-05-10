@@ -33,7 +33,7 @@ public class TestCases {
 
         driver = new ChromeDriver(options);
 
-        // Set browser to maximize and wait
+        // Set browser to maximize and wait!
         driver.manage().window().maximize();
 
     }
@@ -114,7 +114,7 @@ String get = reg.getText();
 if (get.contains("Register or Sign In")){
     System.out.println("Test Passed: URL contains 'Register or Sign In'");
 }
-    else{
+    else{                                              
 System.out.println("Test Failed: URL contains 'Register or Sign In'");
     }
 
